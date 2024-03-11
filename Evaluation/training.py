@@ -197,10 +197,10 @@ def train(data_path, model_folder, dataset):
                                             low_memory=False,
                                             keep_default_na=False,
                                             na_values=[''],
-                                            header = None,
-                                            escapechar = '\\',
-                                            encoding = 'utf-8',
-                                            sep = ','
+                                            #header = None,
+                                            #escapechar = '\\',
+                                            #encoding = 'utf-8',
+                                            #sep = ','
                                             )
                     elif dataset == 'stats':
                         df_rows = pd.read_csv(table_obj.csv_file_location,
